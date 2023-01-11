@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
-import Component1 from './App';
+import Memo from './Memo';
+import Ref from './ref';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
   <React.StrictMode>
-    <Component1 />
+    <Memo />
   </React.StrictMode>
 );
